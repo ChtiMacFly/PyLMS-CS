@@ -171,7 +171,7 @@ class Server(object):
         """
         if isinstance(ref, str):
             ref = self.__decode(ref)
-        ref = ref.lower()
+            ref = ref.lower()
         if ref:
             for player in self.players:
                 player_name = player.name.lower()
